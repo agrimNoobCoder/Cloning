@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com/"></script>
+  </head>
+  <body class="bg-[#242D34] text-white">
+    <div
+      class="fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#000000] w-full lg:w-[580px] text-center lg:rounded-xl h-full lg:h-[540px]"
+    >
+      <div class="ml-[45%]">
+        <img src="https://img.icons8.com/color/48/undefined/twitter--v1.png" />
+      </div>
+      <br />
+      <span class="text-3xl font-bold">Sign in to twitter</span>
+      <br /><br />
+      <div class="flex flex-col">
+        <div
+          class="flex flex-row text-center fixed left-[50%] translate-x-[-50%] bg-white text-black w-[300px] h-[40px] rounded-[25px]"
+        >
+          <img src="https://img.icons8.com/color/32/000000/google-logo.png" />
+          <span
+            class="fixed font-bold translate-y-[-50%] translate-x-[-50%] top-[50%] left-[50%]"
+            >Signin with Google</span
+          >
+        </div>
+        <br /><br />
+        <div
+          class="flex flex-row text-center fixed left-[50%] translate-x-[-50%] mt-[60px] bg-white text-black w-[300px] h-[40px] rounded-[25px]"
+        >
+          <img
+            src="https://img.icons8.com/material-outlined/32/000000/mac-os--v2.png"
+          />
+          <span
+            class="fixed font-bold translate-y-[-50%] translate-x-[-50%] top-[50%] left-[50%]"
+            >Signin with Apple</span
+          >
+        </div>
+        <form class="mt-[60px]" id="form">
+          <hr class="fixed translate-x-[-50%] left-[50%] w-[300px]" />
+          <input
+            type="email"
+            placeholder="Email"
+            class="h-[60px] w-[300px] rounded-lg mt-[10px] border-[1px] border-gray-500 bg-transparent pl-[20px] focus:border-[2px] focus:border-gray-500"
+            name="Username"
+            id="un"
+          />
+          <button type="submit"
+            class="flex flex-row text-center fixed left-[50%] translate-x-[-50%] mt-[20px] bg-white text-black w-[300px] h-[35px] rounded-[25px]"
+          >
+            <img src="https://img.icons8.com/ios-glyphs/32/000000/arrow.png" />
+            <span
+              class="fixed font-bold translate-y-[-50%] translate-x-[-50%] top-[50%] left-[50%]"
+              id="g"
+              >Next</span
+            >
+        </button>
+          <div
+            class="flex flex-row text-center fixed left-[50%] translate-x-[-50%] mt-[60px] bg-transparent text-white w-[300px] h-[35px] rounded-[25px] border-[1px] border-gray-500 focus:border-[2px] focus:border-gray-500"
+          >
+            <img
+              src="https://img.icons8.com/ios-filled/32/FFFFFF/forgot-password.png"
+            />
+            <span
+              class="fixed font-bold translate-y-[-50%] translate-x-[-50%] top-[50%] left-[50%]"
+              >Forgot Password?</span
+            >
+          </div>
+        </form>
+        <span class="text-gray-500 mt-[180px] font-bold"
+          >Don't have an account?
+          <a href="" class="text-blue-500">Sign Up</a></span
+        >
+      </div>
+    </div>
+  </body>
+</html>
